@@ -5,12 +5,12 @@ pipeline {
         stage('Welcome Step') {
             steps { 
                 echo 'Welcome to Jenkins Pipeline'
-            }
-           stage('Build Step') {
+            }        
+        }
+        stage('Build Step') {
             steps { 
                 echo 'Performing the build now'
             }
-        
         }
     }
 }
